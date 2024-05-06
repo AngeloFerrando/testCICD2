@@ -1,4 +1,4 @@
-from setuptools import setup 
+from setuptools import setup, find_packages
   
 setup( 
     name='my_math_unimore', 
@@ -7,6 +7,6 @@ setup(
     long_description='A sample Python package to test CI/CD',
     author='Angelo Ferrando', 
     author_email='angelo.ferrando42@gmail.com', 
-    packages=['my_math_unimore'], 
+    packages=find_packages(), 
     install_requires=['pytest'], 
 ) 
