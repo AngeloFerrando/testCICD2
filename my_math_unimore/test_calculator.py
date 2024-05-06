@@ -1,5 +1,5 @@
 import pytest
-from my_math import MathOperations
+from my_math_unimore import MathOperations
 
 @pytest.fixture
 def calculator():
