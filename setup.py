@@ -2,7 +2,7 @@ from setuptools import setup
   
 setup( 
     name='my_math_unimore', 
-    version='0.1', 
+    version='0.2', 
     description='A sample Python package to test CI/CD', 
     long_description='A sample Python package to test CI/CD',
     author='Angelo Ferrando', 
