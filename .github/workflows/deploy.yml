@@ -1,4 +1,4 @@
-name: Deploy on PyPi
+name: deploy
 on:
   workflow_run:
       workflows: [test]
